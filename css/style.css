@@ -76,7 +76,6 @@
 	align-items: flex-start;
 	padding-top: 408px;
 	max-width: 1200px;
-	margin: 0 auto;
 	gap: 101px;
 	z-index: 1;
 }
@@ -141,6 +140,7 @@
 	max-width: 470px;
 	background: white;
 	border-radius: 10px;
+	width: 100%;
 }
 .emptiness_h {
 	font-family: Open Sans;
@@ -151,6 +151,8 @@
 	text-transform: uppercase;
 	padding-top: 36px;
 	padding-bottom: 75px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 .emptiness_form_text {
 	padding-bottom: 17px;
