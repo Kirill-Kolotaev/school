@@ -36,10 +36,6 @@
 	display: flex;
 	gap: 50px;
 }
-/* .nav_list_item {
-	width: 113px;
-	text-align: center;
-} */
 .nav_list_item_link {
 	color: rgb(255, 255, 255);
 	font-family: Open Sans;
@@ -54,7 +50,9 @@
 	background: coral;
 	border-radius: 25px;
 }
-
+.svg_header {
+	display: none;
+}
 .main_background {
 	position: relative;
 	background-image: url(../img/image.svg);
@@ -551,14 +549,13 @@
 	display: block;
 	content: '';
 	position: absolute;
-	width: 30px;
-	height: 20px;
-	transform: rotate(180deg);
-	background: rgb(226, 226, 226);
 	top: 100%;
 	left: 70px;
+	border-left: 13.77px solid transparent;
+	border-right: 13.77px solid transparent;
+	border-top: 20px solid rgb(226, 226, 226);
 }
-.comments_photo {
+s .comments_photo {
 	display: flex;
 }
 .comments_photo_position {
@@ -1007,6 +1004,43 @@
 	.comments_lorem {
 		padding: 50px 0;
 	}
+	.svg_1 {
+		width: 36px;
+	}
+	.svg_2 {
+		width: 36px;
+	}
+	.svg_3 {
+		width: 36px;
+	}
+	.svg_4 {
+		width: 36px;
+	}
+	.svg_5 {
+		width: 36px;
+	}
+	.svg_6 {
+		width: 36px;
+	}
+	.svg_7 {
+		width: 36px;
+	}
+	.cvg_vse {
+		width: 26px;
+		height: 26px;
+	}
+	.footer_svg_applications {
+		gap: 17px;
+	}
+	.website_app {
+		gap: 17px;
+	}
+	.svg_header {
+		display: block;
+	}
+	.svg_header {
+		margin: auto 0;
+	}
 }
 @media (max-width: 450px) {
 	.why_sections {
@@ -1050,5 +1084,8 @@
 	.contact_form_position_comments {
 		max-width: 288px;
 		width: 100%;
+	}
+	.sections_cards {
+		margin: 0 auto;
 	}
 }
